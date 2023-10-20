@@ -284,6 +284,7 @@ nav {
 	border-radius: 4px;
 	cursor: pointer;
 }
+
 .vid-description{
 	padding-left: 55px; 
 	margin: 15px 0;
@@ -298,6 +299,7 @@ nav {
 	color: #5a5a5a;
 	margin-top: 15px;
 }
+
 .add-comment {
 	display: flex;
 	align-items: center;
@@ -316,6 +318,7 @@ nav {
 	padding-top: 10px;
 	background: transparent;
 }
+
 .old-comment {
 	display: flex;
 	align-items: center;
