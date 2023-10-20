@@ -223,5 +223,8 @@ nav {
 		width: 30px;
 		display: block;
 	}
+	.nav-left .logo {
+		width: 90px;
+	}
 
 }
