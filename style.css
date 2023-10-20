@@ -342,8 +342,27 @@ nav {
 	color: #5a5a5a;
 	font-weight: 500;
 	margin-left: 8px;
-
 }
+.old-coment .comment-action {
+	display: flex;
+	align-items: center;
+	margin: 8px 0;
+	font-size: 14px;
+}
+.old-comment .comment-action img {
+	border-radius: 0;
+	width: 20px;
+	margin-right: 5px;
+}
+.old-comment .comment-action span{
+	margin-right: 20px;
+	color: #5a5a5a;
+}
+.old-comment .comment-action a{
+	color: #0000ff;
+}
+
+
 @media(max-width: 900px) {
 	.sidebar {
 		display: none;
@@ -373,5 +392,21 @@ nav {
 	.nav-left .logo {
 		width: 90px;
 	}
-
+	.play-video{
+		flex-basis: 100%;
+	}
+	.right-sidebar{
+		flex-basis: 100%;
+	}
+	.play-container {
+		padding-left: 5%;
+	}
+	.vid-description {
+		padding-left: 0;
+	}
+	.play-video .play-vid-info a {
+		margin-left: 0;
+		margin-right: 15px;
+		margin-top: 35px;
+	}
 }
