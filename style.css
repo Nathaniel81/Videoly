@@ -141,7 +141,6 @@ nav {
 }
 
 
-
 .container {
 	padding-left: 17%;
 	background: #f9f9f9;
@@ -188,4 +187,40 @@ nav {
 	font-weight: 600;
 	display: block;
 	margin-bottom: 5px;
+}
+
+
+
+
+
+
+
+
+
+@media(max-width: 900px) {
+	.sidebar {
+		display: none;
+	}
+	.menu-icon, .banner {
+		display: none;
+	}
+	.container .large-container {
+		padding-left: 5%;
+		padding-right: 5%;
+	}
+
+	.searchbox {
+		max-width: 150px;
+	}
+	.search-mic {
+		display: none;
+	}
+	.nav-right > *:not(:last-child) {
+		display: none;
+	  }
+
+	.nav-right img:last-child{
+		width: 30px;
+	}
+
 }
