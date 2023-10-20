@@ -194,6 +194,20 @@ nav {
 .play-container {
 	padding-left: 2%;
 }
+.row {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.play-video {
+	flex-basis: 69%;
+}
+.play-video video {
+	width: 100%;
+}
+.right-sidebar {
+	flex-basis: 30%;
+}
 
 
 
