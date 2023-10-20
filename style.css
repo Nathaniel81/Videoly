@@ -247,6 +247,11 @@ nav {
 	width: 20px;
 	margin-right: 8px;
 }
+.play-video .play-vid-info a {
+	display: inline-flex;
+	align-items: center;
+	margin-left: 15px;
+}
 
 
 
