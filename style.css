@@ -239,8 +239,14 @@ nav {
 	align-items: center;
 	justify-content: space-between;
 	flex-wrap: wrap;
+	margin-top: 10px;
+	font-size: 14px;
+	color: #5a5a5a;
 }
-
+.play-video .play-vid-info a img {
+	width: 20px;
+	margin-right: 8px;
+}
 
 
 
