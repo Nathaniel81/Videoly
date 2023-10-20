@@ -225,6 +225,14 @@ nav {
 .side-vid-list .vid-info {
 	flex-basis: 49%;
 }
+.play-video .tags a{
+	color: #0000ff;
+	font-size: 13px;
+}
+.play-video h3{
+	font-weight: 600;
+	font-size: 22px;
+}
 
 
 
