@@ -209,8 +209,8 @@ nav {
 		padding-right: 5%;
 	}
 
-	.searchbox {
-		max-width: 150px;
+	.nav-middle .searchbox input {
+		width: 100px;
 	}
 	.search-mic {
 		display: none;
@@ -221,6 +221,7 @@ nav {
 
 	.nav-right img:last-child{
 		width: 30px;
+		display: block;
 	}
 
 }
