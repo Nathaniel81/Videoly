@@ -19,6 +19,7 @@ img {
 	align-items: center;
 	background: #fff;
 }
+
 nav {
 	padding: 10px 2%;
 	justify-content: space-between;
@@ -27,17 +28,14 @@ nav {
 	top: 0;
 	z-index: 10;
 }
-
 .nav-left .menu-icon {
 	width: 22px;
 	margin-right: 25px;
 }
-
 .nav-left .logo {
 	width: 130px;
 	margin-top: 0px;
 }
-
 .nav-middle .search-mic {
 	width: 16px;
 }
@@ -52,18 +50,15 @@ nav {
 	outline: 0;
 	border: 0;
 	width: 400px;
-
 }
 .nav-middle .searchbox .search-icon {
 	width: 25px;
 }
-
 .nav-right .user-icon {
 	width: 35px;
 	border-radius: 50%;
 	margin-right: 0;
 }
-
 .nav-right img{
 	width: 25px;
 	margin-right: 25px;
@@ -107,25 +102,21 @@ nav {
 .shortcut-links a:first-child {
 	color: #ed3833;
 }
-
 .shortcut-links a img {
 	width: 20px;
 	margin-right: 20px;
 }
-
 .sidebar .shortcut-links hr {
 	border: 0;
 	height: 1px;
 	background: #ccc;
 	width: 85%;
 }
-
 .sidebar .subscribed-list h3{
 	font-size: 13px;
 	margin: 20px 0;
 	color: #5a5a5a;
 }
-
 .sidebar .subscribed-list a {
 	display: flex;
 	align-items: center;
@@ -133,7 +124,6 @@ nav {
 	width: fit-content;
 	flex-wrap: wrap;
 }
-
 .sidebar .subscribed-list a img {
 	width: 25px;
 	border-radius: 50%;
@@ -147,9 +137,11 @@ nav {
 	padding-top: 2%;
 	padding-bottom: 20px;
 }
+
 .large-container {
 	padding-left: 7%;
 }
+
 .banner {
 	width: 100%;
 }
@@ -178,6 +170,7 @@ nav {
 	margin-right: 10px;
 	border-radius: 50%;
 }
+
 .vid-info {
 	color: #5a5a5a;
 	font-size: 13px;
@@ -189,22 +182,23 @@ nav {
 	margin-bottom: 5px;
 }
 
-
-
 .play-container {
 	padding-left: 2%;
 }
+
 .row {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
 }
+
 .play-video {
 	flex-basis: 69%;
 }
 .play-video video {
 	width: 100%;
 }
+
 .right-sidebar {
 	flex-basis: 30%;
 }
@@ -218,13 +212,13 @@ nav {
 .side-vid-list img {
 	width: 100%;
 }
-
 .side-vid-list .small-thumbnail {
 	flex-basis: 49%;
 }
 .side-vid-list .vid-info {
 	flex-basis: 49%;
 }
+
 .play-video .tags a{
 	color: #0000ff;
 	font-size: 13px;
@@ -233,7 +227,6 @@ nav {
 	font-weight: 600;
 	font-size: 22px;
 }
-
 .play-video .play-vid-info{
 	display: flex;
 	align-items: center;
@@ -383,7 +376,7 @@ nav {
 	}
 	.nav-right > *:not(:last-child) {
 		display: none;
-	  }
+	}
 
 	.nav-right img:last-child{
 		width: 30px;
